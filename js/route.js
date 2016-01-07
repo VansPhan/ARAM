@@ -1,8 +1,8 @@
-angular.module('ideas')
+angular.module('aram')
 .config(function ($routeProvider, $locationProvider) {
 	$routeProvider.when('/', {
-		templateUrl: '/templates/pages/main/index.html',
-		controller: 'MainController'
+		templateUrl: '/templates/home/index.html',
+		controller: 'homeController'
 	})
 	.when('', {
 		redirectTo: '/'
